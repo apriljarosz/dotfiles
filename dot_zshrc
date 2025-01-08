@@ -16,5 +16,7 @@ eval "$(starship init zsh)"
 export PATH=/home/jackj/.cargo/bin:$PATH
 export PATH=/home/jackj/bin:$PATH
 
+export EDITOR="nvim"
+
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
