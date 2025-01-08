@@ -15,3 +15,6 @@ eval "$(starship init zsh)"
 # Add to path
 export PATH=/home/jackj/.cargo/bin:$PATH
 export PATH=/home/jackj/bin:$PATH
+
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
