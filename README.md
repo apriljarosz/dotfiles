@@ -2,7 +2,7 @@ Dotfile Setup, Managed using Chezmoi
 
 Install:
 ```shell
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply jackjnet
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --ssh --apply jackjnet
 ```
 
 Remove: 
